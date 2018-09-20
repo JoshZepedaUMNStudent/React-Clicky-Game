@@ -1,0 +1,26 @@
+.card {
+    background: lightblue;
+    border-radius: 3px;
+    width: 300;
+    height: 250;
+    margin: 1;
+    position: relative;
+    text-align: left;
+}
+
+.card > .img-container {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: lightgreen;
+}
+
+.card > .img-container > img {
+    width: 60%
+}
+
+.card > .content {
+    padding-left: 1;
+    padding-right: 1;
+    font-size: 15
+}
