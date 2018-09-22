@@ -8,37 +8,37 @@
     {
         "id": 2,
         "name": "Gold",
-        "image": "http_____",
+        "image": "src/images/gold.jpg",
         "count": 0
     },
     {
         "id": 3,
         "name": "Rhodium",
-        "image": "http_____",
+        "image": "src/images/rhodium.jpg",
         "count": 0
     },
     {
         "id": 4,
         "name": "Iridium",
-        "image": "http_____",
+        "image": "src/images/indium.jpg",
         "count": 0
     },
     {
         "id": 5,
         "name": "Palladium",
-        "image": "http_____",
+        "image": "src/images/palladium.jpg",
         "count": 0
     },
     {
         "id": 6,
         "name": "Indium",
-        "image": "http_____",
+        "image": "src/images/indium.jpg",
         "count": 0
     },
     {
         "id": 7,
         "name": "Rhenium",
-        "image": "http_____",
+        "image": "src/images/rhenium.jpg",
         "count": 0
     }
 ]

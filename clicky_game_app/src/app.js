@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import panel from "/components/panel";
+import panel from "./components/panel";
 import wrapper from "./components/wrapper";
 import header from "./panels.json";
-import "./app.css";
 import { createDecipher } from "crypto";
 
 class App extends Component {
     state = {
-        panels,
+        panel,
         score: 0,
         highscore: 0
     };
@@ -29,8 +28,8 @@ class App extends Component {
     clickCount = id => {
         this.state.panels.find((o, i) => {
             if (o.id === id) {
-                if(panels[i].count === 0) {
-                    panels[i].count = panels[i].count + 1;
+                if(panel[i].count === 0) {
+                    panel[i].count = panel[i].count + 1;
                     this.setState({score : this.state.score + 1}, function() {
                     console.log(this.state.score);
                     });
@@ -45,17 +44,17 @@ class App extends Component {
 
     render() {
         return (
-            <Wrapper>
-                <Header score={this.state.score} highscore={this.state.highscore}>Clicky Game</Header>
-                {this.state.panels.map(panel => (
-                    <Panel 
+            <wrapper>
+                <header score={this.state.score} highscore={this.state.highscore}>Clicky Game </header>
+                {this.state.panel.map(panel => (
+                    <panel 
                         clickCOunt={this.clickCount}
                         id={createDecipher.id}
                         key={createDecipher.id}
                         image={createDecipher.image}
                     />
                 ))}
-            </Wrapper>
+            </wrapper>
         );
     }  
 }
