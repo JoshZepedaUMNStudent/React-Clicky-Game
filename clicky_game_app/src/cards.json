@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "American Eagle Gold",
+        "image": "https://www.sbcgold.com/wp-content/uploads/2013/03/american-gold-eagle-coin.png",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name": "American Eagle Silver",
+        "image": "https://www.sbcgold.com/wp-content/uploads/2013/03/american-silver-eagle-coin.png",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name": "American Gold Buffalo",
+        "image": "https://www.sbcgold.com/wp-content/uploads/2013/03/american-gold-buffalo-coin.png",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name": "US Morgan Silver",
+        "image": "https://www.sbcgold.com/wp-content/uploads/2013/03/american-morgan-silver-dollar.png",
+        "count": 0
+    },
+    {
+        "id": 5,
+        "name": "Liberty Gold",
+        "image": "https://www.sbcgold.com/wp-content/uploads/2014/05/gold-liberty-coin.png",
+        "count": 0
+    },
+    {
+        "id": 6,
+        "name": "Canadian Maple Gold",
+        "image": "https://www.sbcgold.com/wp-content/uploads/2013/08/canadian-maple-gold-thumb.png",
+        "count": 0
+    },
+    {
+        "id": 7,
+        "name": "Canadian Maple Silver",
+        "image": "https://www.sbcgold.com/wp-content/uploads/2013/08/canadian-maple-silver-thumb.png",
+        "count": 0
+    }
+]

@@ -10,4 +10,4 @@ const Header = props => (
     </div>
 );
 
-export default header;
+export default Header;
