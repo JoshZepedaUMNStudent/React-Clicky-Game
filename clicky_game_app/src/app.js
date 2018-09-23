@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import cards from "./cards.json";
+import "./App.css";
 import _ from "underscore";
 
 class App extends Component {
@@ -30,27 +31,10 @@ class App extends Component {
         this.setState({cards: _.shuffle(this.state.cards)})
     }
 
-     // clickCount = id => {
-    //     this.state.cards.find((o, i) => {
-    //         if (o.id === id) {
-    //             if(cards[i].count === 0) {
-    //                 cards[i].count = cards[i].count + 1;
-    //                 this.setState({score : this.state.score + 1}, function() {
-    //                 console.log(this.state.score);
-    //                 });
-    //                 this.state.cards.sort(() => Math.random() - 0.5)
-    //                 return true;
-    //             } else {
-    //                 this.gameEnd();
-    //             }
-    //         }
-    //     });
-    // }
-
     render() {
         return (
             <Wrapper>
-                <header score={this.state.score} highscore={this.state.highscore}>Clicky Game </header>
+                <header score={this.state.score} highscore={this.state.highscore}>Welcome to the Click Game! Click on a coin to start the game!</header>
                 {this.state.cards.map(card => (
                     <Card 
                         clickCount={this.shuffleCoins}
