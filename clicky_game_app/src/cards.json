@@ -40,5 +40,20 @@
         "name": "Canadian Maple Silver",
         "image": "https://www.sbcgold.com/wp-content/uploads/2013/08/canadian-maple-silver-thumb.png",
         "count": 0
+    },
+
+    {
+    "id": 8,
+    "name": "South African Krugerrand Gold",
+    "image": "https://www.sbcgold.com/wp-content/uploads/2013/03/gold-krugerrand.png",
+    "count": 0
+    },
+
+    {
+    "id": 9,
+    "name": "South African Krugerrand Silver",
+    "image": "https://www.sbcgold.com/wp-content/uploads/2018/08/silver-krugerrand-coin.png",
+    "count": 0
     }
+
 ]
